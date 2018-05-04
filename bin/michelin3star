@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require "./lib/michelin3star"
+
+Michelin3star::CLI.new.call

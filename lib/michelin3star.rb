@@ -1,5 +1,2 @@
-require "michelin3star/version"
-
-module Michelin3star
-  # Your code goes here...
-end
+require_relative "./michelin3star/version"
+require_relative "./michelin3star/cli"
