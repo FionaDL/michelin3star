@@ -1,6 +1,6 @@
 require 'pry'
 
-class restaurants
+class Restaurants
 
   attr_accessor :name, :country, :location, :chef
   @@all = []
@@ -13,8 +13,14 @@ class restaurants
     @@all << self
   end
 
-  def all
+  def self.all
     @@all
+  end
+
+  def self.list_by_name
+    @@all.map do |restaurant|
+      restaurant.name
+    end
   end
 
   def create_by_file(file)

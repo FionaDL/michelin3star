@@ -1,3 +1,4 @@
+require 'pry'
 
 class CLI
 
@@ -11,8 +12,7 @@ class CLI
     input = gets.strip
     case input
     when "y"
-      Restaurants.all.name
-      binding.pry
+      Restaurants.all
     when "n"
     end
   end
