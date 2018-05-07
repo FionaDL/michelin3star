@@ -10,9 +10,9 @@ class Scraper
   end
 #use the "h3" to call all of the arrays of "h3" that should include the text with the name of the country.
   def get_country_data
-    get_page.css("h3").map do |country|
-    binding.pry
-  end
+     get_page.css("h3").collect do |country|
+      country.css(" .mw-headline").text
+    end
   end
 
 end
