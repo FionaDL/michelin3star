@@ -6,12 +6,13 @@ require 'pry'
 class Scraper
 
   def get_page
-      doc = Nokogiri::HTML(open(https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants))
+      doc = Nokogiri::HTML(open("https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants"))
   end
-#need to use a CSV ?
+#use the "h3" to call all of the arrays of "h3" that should include the text with the name of the country.
   def get_country_data
+    get_page.css("h3").map do |country|
     binding.pry
-    get_page.css.
+  end
   end
 
 end
