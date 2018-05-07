@@ -9,7 +9,8 @@ class Scraper
       doc = Nokogiri::HTML(open(https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants))
   end
 #need to use a CSV ?
-  def get_restaurant_data
+  def get_country_data
+    binding.pry
     get_page.css.
   end
 
