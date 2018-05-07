@@ -8,7 +8,7 @@ class CLI
     restaurant_list
     scraper = Scraper.new
     scraper.get_country_data
-    binding.pry
+    scraper.get_restaurant_data
   end
 
   def restaurant_list
