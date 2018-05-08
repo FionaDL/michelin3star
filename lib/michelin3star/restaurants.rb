@@ -6,10 +6,6 @@ class Restaurants
   @@all = []
 
   def initialize
-    @name = name
-    @country = country
-    @location = location
-    @chef = chef
     @@all << self
   end
 
