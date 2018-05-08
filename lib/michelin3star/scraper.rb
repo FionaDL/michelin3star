@@ -6,6 +6,7 @@ require 'pry'
 class Scraper
 
   #trying to create a nested array/hash that I will be able to use to call certain elements. {belgium => [{location=> ?, name=> ?, chef=> ?,},{location=> ?, name=> ?, chef=> ?,}], usa => ...}
+  
 
   def get_page
       doc = Nokogiri::HTML(open("https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants"))
@@ -25,6 +26,13 @@ class Scraper
     #end
   #end
 
-  
+  def restaurant_arrays
+    binding.pry
+    array_of_tables = []
+    get_page.css("div .mw-parser-output table").each do |table|
+      array_of_tables << table
+    end
+  array_of_tables
+  end
 
 end
