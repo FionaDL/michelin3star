@@ -36,6 +36,10 @@ class Scraper
 
   def restaurant_info
     restaurant_arrays.each do |table|
-      table.css("tbody")
+      table.css("tr")[1].css("td")[0].text
       binding.pry
+    end
+  end
+
+
 end
