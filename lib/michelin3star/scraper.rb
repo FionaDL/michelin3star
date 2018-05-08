@@ -17,12 +17,14 @@ class Scraper
     end
   end
 
-  def get_restaurant_data
-    get_page.css("table").each do |table|
-      table.css("th")
-    end
-    binding.pry
+  #def get_restaurant_data
+    #get_page.css("table").collect do |table|
+      #table.css("th").collect do |info|
+      #  info.text
+    #  end
+    #end
+  #end
 
-  end
+  
 
 end
