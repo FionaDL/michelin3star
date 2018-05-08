@@ -28,22 +28,23 @@ class Scraper
   #end
 
   def table_arrays
-      self.get_page.css("div .mw-parser-output table tr:nth-child(2)").collect do |table|
-        table
+      self.get_page.css("div .mw-parser-output table").collect do |table|
+         table.css("tr:nth-child(n+2)")
       end
   end
 
   #table_of_rows is returning a nested array of all the tables, and all the rows inside of all the table, now I need to pull out the rows.
 
   def make_restaurants
-    self.table_arrays.collect do |table|
-        location = table.css("td")[0].text
-        name = table.css("td")[1].text
-        chef = table.css("td")[2].text
+    self.table_arrays.each do |row|
+        location = row.css("td")[0].text
+        name = row.css("td")[1].text
+        chef = row.css("td")[2].text
         restaurant = Restaurants.new
         restaurant.location = location
         restaurant.name = name
         restaurant.chef = chef
+
       end  #assign that to a hash
   end
 
