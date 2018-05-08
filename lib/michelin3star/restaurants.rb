@@ -5,7 +5,7 @@ class Restaurants
   attr_accessor :name, :country, :location, :chef
   @@all = []
 
-  def initialize(name, country, location, chef)
+  def initialize
     @name = name
     @country = country
     @location = location
