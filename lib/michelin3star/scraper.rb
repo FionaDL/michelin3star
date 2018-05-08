@@ -26,33 +26,39 @@ class Scraper
     #end
   #end
 
-  def restaurant_arrays
+  def table_arrays
     array_of_tables = []
-    get_page.css("div .mw-parser-output table").each do |table|
-      array_of_tables << table
-    end
-  array_of_tables
+      get_page.css("div .mw-parser-output table").each do |table|
+        array_of_tables << table
+      end
+    array_of_tables
   end
 
-  def rows_in_table
-    restaurant_arrays.each do |table|
-       rows = table.css("tr")
-       counted = rows.count
+  def table_rows
+    table_arrays.collect do |table|
+       table.css("tr")
     end
-    counted
   end
 
-  def restaurant_rows
-    restaurant_arrays.collect do |table|
-      binding.pry
-  end
+  def row_info
+    table_rows.
+    counter = 1
+    rows.collect do |row|
+       until counter == counted
+         rows[counter]
+         counter += 1
+         binding.pry
+       end
+     end
+   end
+
 
     def restaurant_info
       location = row.css("td")[0].text
       name = row.css("td")[1].text
       chef = row.css("td")[2].text
       restaurants = {"Location" => "#{location}", "Name" => "#{name}", "Chef(s)" => "#{chef}"}
-  end
+    end
 
 
 end
