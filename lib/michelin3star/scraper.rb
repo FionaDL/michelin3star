@@ -1,6 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 require 'pry'
+require_relative './restaurants.rb'
 
 
 class Scraper
@@ -27,26 +28,21 @@ class Scraper
   #end
 
   def table_arrays
-    binding.pry
       self.get_page.css("div .mw-parser-output table tr:nth-child(2)").collect do |table|
         table
       end
   end
 
-  def table_of_rows
-    self.table_arrays.collect do |table|
-       table.css("tr")
-    end
-  end
   #table_of_rows is returning a nested array of all the tables, and all the rows inside of all the table, now I need to pull out the rows.
 
   def rows
     restaurant = Restaurants.new
-    table_of_rows.each do |table|
+    table_arrays.each do |table|
       table.each do |row|
         restaurant.location = row.css("td")[0].text
         restaurant.name = row.css("td")[1].text
         restaurant.chef = row.css("td")[2].text
+        binding.pry
       end  #assign that to a hash
     end
   end

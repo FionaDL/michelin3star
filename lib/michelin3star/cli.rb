@@ -10,7 +10,6 @@ class CLI
     scraper.get_country_data
     scraper.table_arrays
     scraper.rows
-    binding.pry
   end
 
   def restaurant_list
