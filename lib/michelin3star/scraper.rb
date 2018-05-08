@@ -27,15 +27,14 @@ class Scraper
   #end
 
   def table_arrays
-    array_of_tables = []
-      get_page.css("div .mw-parser-output table").each do |table|
-        array_of_tables << table
+    binding.pry
+      self.get_page.css("div .mw-parser-output table tr:nth-child(2)").collect do |table|
+        table
       end
-    array_of_tables
   end
 
   def table_of_rows
-    table_arrays.collect do |table|
+    self.table_arrays.collect do |table|
        table.css("tr")
     end
   end
