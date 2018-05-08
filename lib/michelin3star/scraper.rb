@@ -34,21 +34,24 @@ class Scraper
   array_of_tables
   end
 
-  def restaurant_rows
-      counter = 1
-    restaurant_arrays.collect do |table|
-      row = table.css("tr")[counter+= 1]
-      binding.pry
-      end
+  def rows_in_table
+    restaurant_arrays.each do |table|
+       rows = table.css("tr")
+       counted = rows.count
     end
+    counted
+  end
+
+  def restaurant_rows
+    restaurant_arrays.collect do |table|
+      binding.pry
+  end
 
     def restaurant_info
       location = row.css("td")[0].text
       name = row.css("td")[1].text
       chef = row.css("td")[2].text
       restaurants = {"Location" => "#{location}", "Name" => "#{name}", "Chef(s)" => "#{chef}"}
-      binding.pry
-    end
   end
 
 
