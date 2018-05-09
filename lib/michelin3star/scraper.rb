@@ -52,7 +52,7 @@ class Scraper
         puts "Location: #{restaurant.location}"
         puts " Name: #{restaurant.name}"
         puts " Chef: #{restaurant.chef}"
-        puts "Country:#{restaurant.country}
+        puts "Country:#{restaurant.country}"
       end
     end
   end
