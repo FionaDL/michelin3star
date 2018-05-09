@@ -26,3 +26,7 @@ class Country
   def restaurants
     self.name
   end
+
+  def self.find_by_country(country)
+  @all.find { |country| country.name == name }
+end
