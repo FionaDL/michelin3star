@@ -4,7 +4,7 @@ class CLI
 
   def call
     puts"Hello, would you like to check out some three star Michelin restaurants? If your answer is yes, you've come to the right place!"
-    puts "If you would like to see the names of all the Michelin Three Star restaurants in the world type 1. If you prefer to see a list of countries where Michelin 3 star restaurants exist type 2."
+    puts "If you would like to see the names of all the Three Star Michelin restaurants in the world type 1. If you prefer to see a list of countries where Three Star Michelin restaurants exist type 2."
     first_choice
 
     binding.pry
@@ -18,6 +18,9 @@ class CLI
         more_restaurant_info
       when "2"
         Country.all.name
+        puts "Type a country to see all the Three Star Michelin restaurants from that country."
+        list_by_country
+        puts
       end
   end
 
@@ -28,6 +31,17 @@ class CLI
       puts "The location is: #{called_restaurant.location}."
       puts "The Chef is: #{called_restaurant.chef}."
     end
+
+    def list_by_country
+      input = gets.strip
+      list = Restaurants.find_by_country(input)
+      list.collect {|restaurant| restaurant.name }
+    end
+
+      #def self.find_by_country(country)
+      #  @@all.find_all {|restaurant| restaurant.country == country}
+    #  end
+
 
 
 
