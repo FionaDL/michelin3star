@@ -28,7 +28,7 @@ class Scraper
   #end
 
   def table_arrays
-      self.get_page.css("div .mw-parser-output table").collect do |table|
+      self.get_page.css("table").css(".wikitable").collect do |table|
          table.css("tr:nth-child(n+2)")
       end
   end
@@ -45,7 +45,6 @@ class Scraper
           restaurant.location = location
           restaurant.name = name
           restaurant.chef = chef
-          binding.pry
         end
       end  #assign that to a hash
     end
