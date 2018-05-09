@@ -10,6 +10,8 @@ class CLI
     binding.pry
     end
 
+
+    #id giving the user the option of seeing an alphabetized list of all the restaurants, and then the ability to choose one for more information, or to first see a list of countries, and then see the list of restaurants under that country. Then they would also have the ability to choose a restaurant for more information.
   def first_choice
     input = gets.strip
       case input
@@ -20,12 +22,14 @@ class CLI
         Country.all.name
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
+
         puts
       end
   end
 
     def more_restaurant_info
-      input = gets.strip
+      puts "Please type the name of a restaurant to see more infomation!"
+      input = gets.strip.downcase
       called_restaurant = Restaurants.find_by_name(input)
       puts "You have selected #{called_restaurant}."
       puts "The location is: #{called_restaurant.location}."
@@ -33,14 +37,11 @@ class CLI
     end
 
     def list_by_country
-      input = gets.strip
+      input = gets.strip.downcase
       list = Restaurants.find_by_country(input)
       list.collect {|restaurant| restaurant.name }
     end
 
-      #def self.find_by_country(country)
-      #  @@all.find_all {|restaurant| restaurant.country == country}
-    #  end
 
 
 
