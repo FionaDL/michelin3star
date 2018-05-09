@@ -36,7 +36,7 @@ class Scraper
   def make_restaurants
     self.table_arrays.each do |table|
         table.each do |row|
-          restaurant = Restaurants.new
+          restaurant = Restaurants.new(location, )
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text
