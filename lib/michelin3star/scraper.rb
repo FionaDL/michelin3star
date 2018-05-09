@@ -36,38 +36,15 @@ class Scraper
   #table_of_rows is returning a nested array of all the tables, and all the rows inside of all the table, now I need to pull out the rows.
 
   def make_restaurants
+    restaurant = Restaurants.new
     self.table_arrays.each do |table|
         table.each do |row|
-          location = row.css("td")[0].text
-          name = row.css("td")[1].text
-          chef = row.css("td")[2].text
           restaurant = Restaurants.new
-          restaurant.location = location
-          restaurant.name = name
-          restaurant.chef = chef
+          restaurant.location = row.css("td")[0].text
+          restaurant.name = row.css("td")[1].text
+          restaurant.chef = row.css("td")[2].text
         end
-      end  #assign that to a hash
-    end
-
-
-  def row_info
-    counter = 1
-    counted = table
-    table_rows.collect do |row|
-       until counter == counted
-         rows[counter]
-         counter += 1
-         binding.pry
-       end
-     end
-   end
-
-
-    def restaurant_info
-      location = row.css("td")[0].text
-      name = row.css("td")[1].text
-      chef = row.css("td")[2].text
-      restaurants = {"Location" => "#{location}", "Name" => "#{name}", "Chef(s)" => "#{chef}"}
+      end    #assign that to a hash
     end
 
 
