@@ -36,7 +36,6 @@ class Scraper
   #table_of_rows is returning a nested array of all the tables, and all the rows inside of all the table, now I need to pull out the rows.
 
   def make_restaurants
-    restaurant = Restaurants.new
     self.table_arrays.each do |table|
         table.each do |row|
           restaurant = Restaurants.new
