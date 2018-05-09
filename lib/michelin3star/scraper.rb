@@ -19,13 +19,6 @@ class Scraper
     end
   end
 
-  #def get_restaurant_data
-    #get_page.css("table").collect do |table|
-      #table.css("th").collect do |info|
-      #  info.text
-    #  end
-    #end
-  #end
 
   def table_arrays
       self.get_page.css("table").css(".wikitable").collect do |table|
@@ -33,7 +26,12 @@ class Scraper
       end
   end
 
-  #table_of_rows is returning a nested array of all the tables, and all the rows inside of all the table, now I need to pull out the rows.
+  #trying to say that the index of the table will also be the same index as the array of countries. Assign that country to that table.
+  #def assign_country
+  #  self.table_arrays.each_with_index do |table, i|
+      #   get_country_data[i]
+  #  end
+  #end
 
   def make_restaurants
     self.table_arrays.each do |table|
@@ -42,9 +40,22 @@ class Scraper
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text
+          restaurant.country = self.table_arrays.each_with_index {|table, i| get_country_data[i]}
         end
-      end    #assign that to a hash
+      end
     end
+
+    def print_restaurants
+    self.make_restaurants
+    Restaurants.all.each do |restaurant|
+      if restaurant.name
+        puts "Location: #{restaurant.location}"
+        puts " Name: #{restaurant.name}"
+        puts " Chef: #{restaurant.chef}"
+        puts "Country:#{restaurant.country}
+      end
+    end
+  end
 
 
 end
