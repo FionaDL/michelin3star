@@ -1,11 +1,12 @@
 class Country
 
-  attr_accessor :restaurant, :name
+  attr_accessor :restaurants, :name
 
   @@all = []
 
   def initialize(name)
     @name = name
+    @restaurants = []
     @@all << self
   end
 
@@ -27,12 +28,6 @@ class Country
   #end
 #end
 
-  #want to call country.restaurants to get all the restaurants for that country
-
-  def restaurants
-    self.name
-  end
-
-  def self.find_by_country(country)
-  @all.find { |country| country.name == name }
+  def self.find_by_name(name)
+  self.all.find {|country| country.name == name }
 end
