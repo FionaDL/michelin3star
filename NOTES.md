@@ -9,7 +9,3 @@ A restaurant has an address
 What is a country?
 
 A country has a list of restaurants
-
-What is a chef?
-
-A chef had a list of restaurants
