@@ -6,14 +6,18 @@ class Restaurants
   @@all = []
 
   def initialize
-    @@all << self
+    save
   end
 
   def self.all
     @@all
   end
 
-  def self.list_by_name
+  def save
+    self.class.all << self
+  end
+
+  def self.all_by_name
     @@all.map do |restaurant|
       restaurant.name
     end
