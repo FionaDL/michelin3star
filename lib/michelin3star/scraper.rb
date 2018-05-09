@@ -39,7 +39,6 @@ class Scraper
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text
-          restaurant.country = self.assign_country
         end
       end
     end

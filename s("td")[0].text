@@ -1,0 +1,1088 @@
+=> [[32m#<Restaurants:0x00000000959700[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPeter Goossens[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKruishoutem[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHof van Cleve[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008c28a0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGert de Mangeleer[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mZedelgem[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHertog Jan[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008a5598[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJustin Tan[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mShanghai[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mT'ang Court[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000089be08[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPaul Pairet[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mShanghai[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mUltraviolet[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008900a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRasmus Kofoed[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCopenhagen[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGeranium[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008158a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÉric Pras[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mChagny[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMaison Lameloise[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000809670[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristophe Muller, Gilles Reinhardt, and Olivier Couvin[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCollonges-au-Mont-d'Or[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Auberge du Pont de Collonges - Paul Bocuse[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000086b8c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYannick Alléno[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCourchevel 1850[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe 1947 at Cheval Blanc[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000865df8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichel Guérard[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mEugénie-les-Bains[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLes Prés d'Eugénie - Michel Guérard[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000085d838[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGilles Goujon[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFontjoncouse[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAuberge du Vieux Puits[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000081cdd8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMarc Haeberlin[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mIllhaeusern[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAuberge de l’Ill[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000007f9540[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristophe Bacquié[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLe Castellet (Circuit Paul Ricard)[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mChristophe Bacquié[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000688aa8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRené and Maxime Meilleur[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLes Belleville[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Bouitte[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000679e90[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMarc Veyrat[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mManigod[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Maison des Bois - Marc Veyrat[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000066e158[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGérald Passédat[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMarseille[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Petit Nice[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000006688c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEmmanuel Renaut[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMegève[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mFlocons de Sel[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000006643d8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFranck Cerutti[15] and Dominique Lory[16][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMonte Carlo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Louis XV - Alain Ducasse à l'Hôtel de Paris[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000006623a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichel and César Troisgros[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOuches[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Bois sans Feuilles - Troisgros[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000006602d8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mBernard Pacaud[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 4e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Ambroisie[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000065c688[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGuy Savoy[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 6e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGuy Savoy[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000659c58[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlain Passard[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 7e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mArpège[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000657340[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRomain Meder[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlain Ducasse au Plaza Athénée[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000654258[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYannick Alléno[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlléno Paris au Pavillon Ledoyen[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ab218[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÉric Fréchon[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEpicure[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012a87c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristian Le Squer[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Cinq[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000124a2b0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPierre Gagnaire[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPierre Gagnaire[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000139bf60[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPascal Barbot[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 16e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAstrance[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013984f0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFrédéric Anton[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 16e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Pré Catelan[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001364e20[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRégis and Jacques Marcon[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSaint-Bonnet-le-Froid[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRégis et Jacques Marcon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001349f30[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mArnaud Donckele[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSaint-Tropez[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Vague d'Or[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000132f810[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mArnaud Lallement[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTinqueux[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Assiette Champenoise[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000132de48[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAnne-Sophie Pic[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mValence[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPic[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000132c4d0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGeorges Blanc[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mVonnas[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGeorges Blanc[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131ed80[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHarald Wohlfahrt[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBaiersbronn[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSchwarzwaldstube[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131d048[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mClaus-Peter Lumpp[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBaiersbronn[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant Bareiss[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131b888[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJoachim Wissler[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBergisch Gladbach[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mVendôme[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131a5c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHelmut Thieltges[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mDreis[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mWaldhotel Sonnora[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001319178[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKevin Fehling[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHamburg[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Table[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001318458[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJan Hartwig[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMunich[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAtelier[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001303738[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mThomas Bühner[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsnabrück[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Vie[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001302978[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristian Bau[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mPerl[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mVictor's Fine Dining by Christian Bau[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001301aa0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristian Jürgens[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mRottach-Egern[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant Überfahrt[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001300ce0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKlaus Erfort[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSaarbrücken[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGästeHaus Klaus Erfort[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ffb88[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mSven Elverfeld[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mWolfsburg[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAqua[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fe580[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChan Yan Tak[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLung King Heen[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fcf00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mUmberto Bombana and Keith Yam Ka Lok[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31m8½ Otto e Mezzo Bombana[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fce38[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDavid Alves[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Atelier de Joël Robuchon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e6f20[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlvin Leung[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mBo Innovation[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e5eb8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshiharu Kakinuma[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Shikon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e4478[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKwong Wai Keung[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mT'ang Court[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012cb0b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJulien Tongourian[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMacau[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRobuchon au Dôme[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c9e20[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCheung Tan-leung[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMacau[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Eight[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c8b60[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEnrico Crippa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mAlba[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPiazza Duomo[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012afb10[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mVittorio Cerea[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBrusaporto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDa Vittorio[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012aeda0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNadia Santini[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCanneto sull'Oglio[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDal Pescatore[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ae008[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNiko Romito[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCastel di Sangro[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mReale[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ad068[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAnnie Féolde, Italo Bassi, and Riccardo Monco[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFlorence[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEnoteca Pinchiorri[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ac050[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMassimo Bottura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mModena[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mOsteria Francescana[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001217018[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHeinz Beck[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mRome[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Pergola[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001216258[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMassimiliano Alajmo[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mRubano[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Calandre[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001215420[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNorbert Niederkofler[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Cassiano[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSt. Hubertus[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d7f58[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKenji Gyoten[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFukuoka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGyoten[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d71c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mTetsuo Nakashima[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHiroshima[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mNakashima[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d6248[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHiroshi Nakamichi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHokkaido[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMolière[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d54b0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mTomoya Kago[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHokkaido[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHanakoji Sawada[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d4358[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMasaaki Miyakawa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHokkaido[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Miyakawa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011b32c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mShinya Fukumoto[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKobe[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCa Sento[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011b2488[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKenichi Fujiwara[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKobe[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKomago[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011b0bd8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKatsuyoshi Nagata[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mChihana[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000116f5e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshihiro Takahashi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHyotei[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000116dd10[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshihiro Murata[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKikunoi Honten[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000116ca00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKunio Tokuoka[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKitcho Arashiyama[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001117988[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHitoshi Ishihara[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMizai[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001116790[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMotokazu Nakamura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mNakamura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011157c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshimi Tanigawa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKichisen[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001114968[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mShinichi Iida[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mIida[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010dfad8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNobuharu Yamamura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNara[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mWa Yamamura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010de8b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHideaki Matsuo[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKashiwaya[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010dd5d0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHitoshi Takahata[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mTaian[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010dc298[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMatsuo Shintaro[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKoryu[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010cea08[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHajime Yoneda[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHajime[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010cd680[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYukinori Iijima[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mShōnan[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKouan[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000138fb48[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlain Verzeroli[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mJoël Robuchon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000138df28[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHiroyuki Kanda[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKanda[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001387dd0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mShuzo Kishida[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mQuintessence[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001385c88[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJiro Ono[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSukiyabashi Jiro[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001384838[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHideki Ishikawa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mIshikawa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000137ecd0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mTakashi Saito[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Saito[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001379fa0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJun Yukimura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mYukimura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001378308[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFumie Yamadaya[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mUsukifugu Yamadaya[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000136a690[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mSeiji Yamamoto[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRyugin[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000135ef70[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMasahiro Yoshitake[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Yoshitake[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000135c9a0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMakimura Akio[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMakimura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000135ae70[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKoji Koizumi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKohaku[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001358a08[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKoji Yamazaki[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mToyama[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mYamazaki[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000134f6d8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJacob Jan Boerma[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mVaassen[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDe Leest[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000134d3b0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJonnie Boer[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mZwolle[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDe Librije[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000134c0f0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJannis Brevet[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKruiningen[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mInter Scaldes[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001347190[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEsben Holmboe Bang[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOslo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMaaemo[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001345b10[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichael Michaelidis[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSingapore[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mJoël Robuchon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001344800[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKim Byoung-Jin[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSeoul[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGaon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001342320[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKim Sung-Il[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSeoul[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Yeon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001340660[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMartín Berasategui and Paolo Casagrande[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBarcelona[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLasarte[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001332038[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJordi Cruz[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBarcelona[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mABaC[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001321828[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mQuique Dacosta[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mDénia[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mQuique Dacosta[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001316950[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÁngel León[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mEl Puerto de Santa María[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAponiente[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001314b78[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJoan Roca[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mGirona[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEl Celler de Can Roca[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001307c48[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMartín Berasategui[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLasarte-Oria[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurante Martín Berasategui[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001306a00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEneko Atxa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLarrabetzu[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAzurmendi[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013046d8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDavid Muñoz[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMadrid[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDiverXO[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fb218[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCarme Ruscalleda[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSant Pol de Mar[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSant Pau[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012f9738[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJuan Mari Arzak[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Sebastián[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mArzak[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012f82e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPedro Subijana[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Sebastián[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAkelaŕe (Akelarre)[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012eb408[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mBjörn Frantzén[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mStockholm[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mFrantzén[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ea698[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPeter Knogl[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBasel[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCheval Blanc[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e98b0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFranck Giovannini[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCrissier[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant de l'Hôtel de Ville[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e35c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAndreas Caminada[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFürstenau[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSchloss Schauenstein[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e15c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKen Chan and Matt Chen[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTaipei[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Palais[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e08a0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlain Roux[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBray[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Waterside Inn[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012dea00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJonny Lake[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBray[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Fat Duck[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012dd1a0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGordon Ramsay and Matt Abé[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLondon[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant Gordon Ramsay[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012cfaa0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJean-Philippe Blondet[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLondon[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlain Ducasse at the Dorchester[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ceab0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMitsuhiro Araki[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLondon[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Araki[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012cdac0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGrant Achatz and Mike Bagale[85][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mChicago[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlinea[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ccc38[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDavid Kinch[87][88] and Mitch Lienhard[89][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLos Gatos[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mManresa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c7fa8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÉric Ripert[91], Chris Muller[92], and Eric Gestel[93][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Bernardin[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c6900[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mThomas Keller[95] and Corey Chow[96][97][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPer Se[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c5960[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMasa Takayama[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMasa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c4b00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDaniel Humm and Dmitri Magi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEleven Madison Park[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012b3af8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCésar Ramírez[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mChef's Table at Brooklyn Fare[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012b11e0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCorey Lee and Brandon Rodgers[100][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mBenu[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000129fc10[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJoshua Skenes[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSaison[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000129e7c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichael Tusk and Neil Stetz[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mQuince[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000129d640[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMatthew Kirkley[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCoi[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001293cd0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristopher Kostow and John Hong[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSt. Helena[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Restaurant at Meadowood[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001291b10[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mThomas Keller and David Breeden[107][108][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mYountville[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe French Laundry[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000009b3160[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPeter Goossens[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKruishoutem[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHof van Cleve[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000009b0fc8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGert de Mangeleer[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mZedelgem[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHertog Jan[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000099b718[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJustin Tan[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mShanghai[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mT'ang Court[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000997d20[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPaul Pairet[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mShanghai[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mUltraviolet[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000982628[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRasmus Kofoed[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCopenhagen[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGeranium[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000097e410[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÉric Pras[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mChagny[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMaison Lameloise[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000097ca70[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristophe Muller, Gilles Reinhardt, and Olivier Couvin[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCollonges-au-Mont-d'Or[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Auberge du Pont de Collonges - Paul Bocuse[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000096de80[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYannick Alléno[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCourchevel 1850[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe 1947 at Cheval Blanc[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000962a58[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichel Guérard[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mEugénie-les-Bains[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLes Prés d'Eugénie - Michel Guérard[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000960320[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGilles Goujon[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFontjoncouse[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAuberge du Vieux Puits[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000095d8c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMarc Haeberlin[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mIllhaeusern[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAuberge de l’Ill[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000095a538[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristophe Bacquié[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLe Castellet (Circuit Paul Ricard)[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mChristophe Bacquié[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000009580a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRené and Maxime Meilleur[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLes Belleville[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Bouitte[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000954ed0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMarc Veyrat[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mManigod[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Maison des Bois - Marc Veyrat[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000950e70[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGérald Passédat[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMarseille[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Petit Nice[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000009068e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEmmanuel Renaut[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMegève[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mFlocons de Sel[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008c1ea0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFranck Cerutti[15] and Dominique Lory[16][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMonte Carlo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Louis XV - Alain Ducasse à l'Hôtel de Paris[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008ad248[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichel and César Troisgros[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOuches[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Bois sans Feuilles - Troisgros[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008a6880[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mBernard Pacaud[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 4e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Ambroisie[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008a46e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGuy Savoy[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 6e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGuy Savoy[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008a0e58[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlain Passard[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 7e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mArpège[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000089e888[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRomain Meder[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlain Ducasse au Plaza Athénée[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000898820[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYannick Alléno[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlléno Paris au Pavillon Ledoyen[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008905f8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÉric Fréchon[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEpicure[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000817180[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristian Le Squer[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Cinq[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000813198[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPierre Gagnaire[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 8e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPierre Gagnaire[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000810ee8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPascal Barbot[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 16e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAstrance[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000080b3d0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFrédéric Anton[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mParis 16e[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Pré Catelan[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000808090[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mRégis and Jacques Marcon[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSaint-Bonnet-le-Froid[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRégis et Jacques Marcon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000086d800[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mArnaud Donckele[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSaint-Tropez[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Vague d'Or[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000869368[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mArnaud Lallement[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTinqueux[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Assiette Champenoise[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000866f28[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAnne-Sophie Pic[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mValence[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPic[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000863da0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGeorges Blanc[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mVonnas[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGeorges Blanc[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000085fcc8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHarald Wohlfahrt[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBaiersbronn[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSchwarzwaldstube[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000085dab8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mClaus-Peter Lumpp[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBaiersbronn[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant Bareiss[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000085c0a0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJoachim Wissler[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBergisch Gladbach[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mVendôme[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000008586d0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHelmut Thieltges[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mDreis[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mWaldhotel Sonnora[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000081e048[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKevin Fehling[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHamburg[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Table[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000080f2a0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJan Hartwig[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMunich[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAtelier[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000080c0c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mThomas Bühner[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsnabrück[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Vie[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000007fa3c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristian Bau[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mPerl[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mVictor's Fine Dining by Christian Bau[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000007f8730[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristian Jürgens[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mRottach-Egern[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant Überfahrt[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000006afdb0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKlaus Erfort[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSaarbrücken[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGästeHaus Klaus Erfort[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000688238[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mSven Elverfeld[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mWolfsburg[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAqua[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000067de28[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChan Yan Tak[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLung King Heen[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000675048[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mUmberto Bombana and Keith Yam Ka Lok[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31m8½ Otto e Mezzo Bombana[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000669ab8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDavid Alves[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mL'Atelier de Joël Robuchon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000664838[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlvin Leung[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mBo Innovation[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000006620d8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshiharu Kakinuma[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Shikon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000065e8e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKwong Wai Keung[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHong Kong[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mT'ang Court[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000065ae28[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJulien Tongourian[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMacau[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRobuchon au Dôme[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000657c78[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCheung Tan-leung[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMacau[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Eight[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000655f68[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEnrico Crippa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mAlba[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPiazza Duomo[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000000653060[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mVittorio Cerea[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBrusaporto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDa Vittorio[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012abc90[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNadia Santini[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCanneto sull'Oglio[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDal Pescatore[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012a8e78[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNiko Romito[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCastel di Sangro[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mReale[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000124a080[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAnnie Féolde, Italo Bassi, and Riccardo Monco[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFlorence[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEnoteca Pinchiorri[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000139b7b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMassimo Bottura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mModena[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mOsteria Francescana[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001367468[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHeinz Beck[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mRome[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Pergola[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000134bda8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMassimiliano Alajmo[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mRubano[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Calandre[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000132fe00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNorbert Niederkofler[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Cassiano[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSt. Hubertus[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000132e5f0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKenji Gyoten[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFukuoka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGyoten[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000132c688[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mTetsuo Nakashima[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHiroshima[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mNakashima[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131ec68[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHiroshi Nakamichi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHokkaido[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMolière[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131cbc0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mTomoya Kago[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHokkaido[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHanakoji Sawada[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000131b2e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMasaaki Miyakawa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mHokkaido[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Miyakawa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001319a38[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mShinya Fukumoto[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKobe[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCa Sento[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001318a48[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKenichi Fujiwara[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKobe[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKomago[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001303aa8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKatsuyoshi Nagata[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mChihana[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001302b08[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshihiro Takahashi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHyotei[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001301a00[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshihiro Murata[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKikunoi Honten[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001300a60[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKunio Tokuoka[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKitcho Arashiyama[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ff3b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHitoshi Ishihara[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMizai[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fdc48[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMotokazu Nakamura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mNakamura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fc668[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYoshimi Tanigawa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKichisen[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e74c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mShinichi Iida[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKyoto[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mIida[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e6278[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mNobuharu Yamamura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNara[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mWa Yamamura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e4b30[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHideaki Matsuo[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKashiwaya[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012cae10[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHitoshi Takahata[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mTaian[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c9808[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMatsuo Shintaro[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKoryu[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012c84a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHajime Yoneda[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOsaka[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mHajime[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012af3b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mYukinori Iijima[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mShōnan[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKouan[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ae418[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlain Verzeroli[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mJoël Robuchon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ad338[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHiroyuki Kanda[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKanda[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ac118[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mShuzo Kishida[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mQuintessence[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001216e88[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJiro Ono[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSukiyabashi Jiro[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001215ee8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mHideki Ishikawa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mIshikawa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001214e30[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mTakashi Saito[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Saito[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d7800[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJun Yukimura[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mYukimura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d66f8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFumie Yamadaya[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mUsukifugu Yamadaya[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d5758[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mSeiji Yamamoto[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRyugin[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011d43f8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMasahiro Yoshitake[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSushi Yoshitake[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011b3130[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMakimura Akio[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMakimura[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011b2140[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKoji Koizumi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTokyo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mKohaku[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000011b02c8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKoji Yamazaki[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mToyama[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mYamazaki[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000116e5a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJacob Jan Boerma[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mVaassen[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDe Leest[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000116ceb0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJonnie Boer[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mZwolle[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDe Librije[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001117c30[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJannis Brevet[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mKruiningen[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mInter Scaldes[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001116538[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEsben Holmboe Bang[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mOslo[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMaaemo[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001115548[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichael Michaelidis[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSingapore[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mJoël Robuchon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001114300[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKim Byoung-Jin[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSeoul[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mGaon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010df3d0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKim Sung-Il[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSeoul[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLa Yeon[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010dda80[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMartín Berasategui and Paolo Casagrande[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBarcelona[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLasarte[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010dc7e8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJordi Cruz[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBarcelona[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mABaC[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010ceaf8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mQuique Dacosta[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mDénia[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mQuique Dacosta[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000010cd450[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÁngel León[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mEl Puerto de Santa María[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAponiente[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000138f670[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJoan Roca[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mGirona[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEl Celler de Can Roca[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000138d2a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMartín Berasategui[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLasarte-Oria[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurante Martín Berasategui[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013870d8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mEneko Atxa[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLarrabetzu[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAzurmendi[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001384e28[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDavid Muñoz[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mMadrid[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mDiverXO[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000137f018[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCarme Ruscalleda[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSant Pol de Mar[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSant Pau[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000137a068[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJuan Mari Arzak[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Sebastián[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mArzak[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000136bf90[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPedro Subijana[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Sebastián[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAkelaŕe (Akelarre)[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013698d0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mBjörn Frantzén[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mStockholm[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mFrantzén[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000135df80[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mPeter Knogl[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBasel[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCheval Blanc[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000135b7f8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mFranck Giovannini[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mCrissier[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant de l'Hôtel de Ville[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001358eb8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAndreas Caminada[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mFürstenau[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSchloss Schauenstein[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000134f890[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mKen Chan and Matt Chen[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mTaipei[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Palais[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x0000000134d298[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mAlain Roux[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBray[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Waterside Inn[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001347de8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJonny Lake[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mBray[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Fat Duck[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001346858[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGordon Ramsay and Matt Abé[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLondon[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mRestaurant Gordon Ramsay[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013454a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJean-Philippe Blondet[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLondon[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlain Ducasse at the Dorchester[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001342ed8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMitsuhiro Araki[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLondon[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Araki[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001341128[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mGrant Achatz and Mike Bagale[85][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mChicago[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mAlinea[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001332470[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDavid Kinch[87][88] and Mitch Lienhard[89][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mLos Gatos[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mManresa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001321aa8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mÉric Ripert[91], Chris Muller[92], and Eric Gestel[93][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mLe Bernardin[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013162c0[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mThomas Keller[95] and Corey Chow[96][97][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mPer Se[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013148a8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMasa Takayama[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mMasa[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x00000001307720[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mDaniel Humm and Dmitri Magi[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mEleven Madison Park[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000013061b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCésar Ramírez[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mNew York City[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mChef's Table at Brooklyn Fare[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012fbcb8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mCorey Lee and Brandon Rodgers[100][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mBenu[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012f9c60[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mJoshua Skenes[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mSaison[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012f8590[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMichael Tusk and Neil Stetz[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mQuince[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012eb368[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mMatthew Kirkley[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSan Francisco[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mCoi[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012ea4b8[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mChristopher Kostow and John Hong[1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mSt. Helena[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe Restaurant at Meadowood[1;31m"[0m[31m[0m[32m>[0m,
+ [32m#<Restaurants:0x000000012e9450[0m
+  @chef[32m=[0m[31m[1;31m"[0m[31mThomas Keller and David Breeden[107][108][1;31m"[0m[31m[0m,
+  @location[32m=[0m[31m[1;31m"[0m[31mYountville[1;31m"[0m[31m[0m,
+  @name[32m=[0m[31m[1;31m"[0m[31mThe French Laundry[1;31m"[0m[31m[0m[32m>[0m]
