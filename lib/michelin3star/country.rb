@@ -13,6 +13,12 @@ class Country
     @@all
   end
 
+  def create_by_restaurant(restaurant)
+    new_country = restaurant.country
+    new_country1 = self.new(new_country)
+    new_country1
+  end
+
   #adds a new restaurant to a country
   #def add_restaurant(restaurant)
   #  unless restaurant.country
