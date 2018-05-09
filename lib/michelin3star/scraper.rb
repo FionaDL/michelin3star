@@ -6,9 +6,6 @@ require_relative './restaurants.rb'
 
 class Scraper
 
-  #trying to create a nested array/hash that I will be able to use to call certain elements. {belgium => [{location=> ?, name=> ?, chef=> ?,},{location=> ?, name=> ?, chef=> ?,}], usa => ...}
-
-
   def get_page
       doc = Nokogiri::HTML(open("https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants"))
   end
@@ -19,7 +16,7 @@ class Scraper
     end
   end
 
-
+  #makes an array of tables and gets rid of the first row of each table.
   def table_arrays
       self.get_page.css("table").css(".wikitable").collect do |table|
          table.css("tr:nth-child(n+2)")
@@ -27,25 +24,27 @@ class Scraper
   end
 
   #trying to say that the index of the table will also be the same index as the array of countries. Assign that country to that table.
-  #def assign_country
-  #  self.table_arrays.each_with_index do |table, i|
-      #   get_country_data[i]
-  #  end
-  #end
+  def assign_country
+   self.table_arrays.each_with_index do |table, i|
+      get_country_data[i]
+   end
+  end
+
+  #should be going through every row in each individual table(except the first row)and creating a new restaurant object from each row.
 
   def make_restaurants
     self.table_arrays.each do |table|
         table.each do |row|
-          restaurant = Restaurants.new(location, )
+          restaurant = Restaurants.new
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text
-          restaurant.country = self.table_arrays.each_with_index {|table, i| get_country_data[i]}
+          restaurant.country = self.assign_country
         end
       end
     end
 
-    def print_restaurants
+  def print_restaurants
     self.make_restaurants
     Restaurants.all.each do |restaurant|
       if restaurant.name

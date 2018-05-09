@@ -5,10 +5,10 @@ class CLI
   def call
     puts"Hello, would you like to check out some three star Michelin restaurants? If your answer is yes, you've come to the right place!"
     puts "If you would like to see the names of all the Three Star Michelin restaurants in the world type 1. If you prefer to see a list of countries where Three Star Michelin restaurants exist type 2."
-    first_choice
-
+    scraper = Scraper.new
+    scraper.table_arrays
     binding.pry
-    end
+  end
 
 
     #id giving the user the option of seeing an alphabetized list of all the restaurants, and then the ability to choose one for more information, or to first see a list of countries, and then see the list of restaurants under that country. Then they would also have the ability to choose a restaurant for more information.
@@ -41,10 +41,5 @@ class CLI
       list = Restaurants.find_by_country(input)
       list.collect {|restaurant| restaurant.name }
     end
-
-
-
-
-
 
 end
