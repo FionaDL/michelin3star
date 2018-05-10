@@ -40,17 +40,4 @@ class Scraper
       end
     end
 
-  def print_restaurants
-    self.make_restaurants
-    Restaurants.all.each do |restaurant|
-      if restaurant.name
-        puts "Location: #{restaurant.location}"
-        puts " Name: #{restaurant.name}"
-        puts " Chef: #{restaurant.chef}"
-        puts "Country:#{restaurant.country}"
-      end
-    end
-  end
-
-
 end

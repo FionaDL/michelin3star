@@ -7,6 +7,8 @@ class Restaurants
 
   def initialize
     save
+    @country = country
+    self.create_country(@country)
   end
 
   def self.all
@@ -33,8 +35,10 @@ class Restaurants
     self.all.find { |restaurant| restaurant.name == name }
   end
 
-  def self.find_by_country(country)
-    @@all.find_all {|restaurant| restaurant.country == country}
+  def create_country(country)
+    if @@all.find {|restaurant| restaurant.country == country} == nil
+      new_country = Country.new(country)
+    end
   end
 
 
