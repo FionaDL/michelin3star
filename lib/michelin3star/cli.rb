@@ -8,6 +8,7 @@ class CLI
     scraper = Scraper.new
     scraper.make_restaurants
     first_choice
+    second_choice
   end
 
 
@@ -22,17 +23,16 @@ class CLI
         Country.all.name
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
-
-        puts
       end
   end
 
     def more_restaurant_info
       puts "Please type the name of a restaurant to see some more information."
-      input = gets.strip
-      called_restaurant = Restaurants.find_by_name(input)
-      puts "You have selected: #{called_restaurant.name}."
-      puts "The location of this restaurant is #{called_restaurant.location},#{called_restaurant.country}."
+      input = gets.strip.downcase
+      new_input = input.split.map{|x| x.capitalize}.join(' ')
+      called_restaurant = Restaurants.find_by_name(new_input)
+      puts "You have selected #{called_restaurant.name}."
+      puts "This restaurant is located in #{called_restaurant.location},#{called_restaurant.country}."
       puts "The chef(s) is #{called_restaurant.chef}."
     end
 

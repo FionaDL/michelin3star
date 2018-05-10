@@ -34,6 +34,7 @@ class Scraper
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text
+          restaurant.year = row.css("td")[3].text.tr("[]", '').chop
           restaurant.country = @country
         end
       end
