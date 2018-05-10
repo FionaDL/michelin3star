@@ -23,13 +23,6 @@ class Scraper
       end
   end
 
-  #trying to say that the index of the table will also be the same index as the array of countries. Assign that country to that table.
-  def assign_country
-   country = self.table_arrays.each_with_index do |table, i|
-       get_country_data[i]
-   end
-   country
-  end
 
   #should be going through every row in each individual table(except the first row)and creating a new restaurant object from each row.
 
@@ -42,7 +35,6 @@ class Scraper
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text
           restaurant.country = @country
-          binding.pry
         end
       end
     end
