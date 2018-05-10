@@ -2,7 +2,7 @@ require 'pry'
 
 class Restaurants
 
-  attr_accessor :name, :country, :location, :chef, :address
+  attr_accessor :name, :country, :location, :chef
   @@all = []
 
   def initialize
@@ -19,12 +19,14 @@ class Restaurants
 
   def self.all_by_name
     @@all.map do |restaurant|
-      puts restaurant.name
+      restaurant.name
     end
   end
 
+
+
   def self.find_by_name(name)
-  @@all.find { |restaurant| restaurant.name == name }
+    self.all.find { |restaurant| restaurant.name == name }
   end
 
   def self.find_by_country(country)

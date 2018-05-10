@@ -16,7 +16,8 @@ class CLI
     input = gets.strip
       case input
       when "1"
-        Restaurants.all_by_name.sort!
+        Restaurants.all_by_name
+        binding.pry
         more_restaurant_info
       when "2"
         Country.all.name
