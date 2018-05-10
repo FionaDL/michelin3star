@@ -2,7 +2,7 @@ require 'pry'
 
 class Restaurants
 
-  attr_accessor :name, :country, :location, :chef
+  attr_accessor :name, :country, :location, :chef, :year
   @@all = []
 
   def initialize
@@ -28,8 +28,6 @@ class Restaurants
       puts "#{restaurant}"
     end
   end
-
-
 
   def self.find_by_name(name)
     self.all.find { |restaurant| restaurant.name == name }

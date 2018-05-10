@@ -34,6 +34,7 @@ class CLI
       puts "You have selected #{called_restaurant.name}."
       puts "This restaurant is located in #{called_restaurant.location},#{called_restaurant.country}."
       puts "The chef(s) is #{called_restaurant.chef}."
+      puts "The restaurant has held 3 stars since #{called_restaurants.year}."
     end
 
     def list_by_country
