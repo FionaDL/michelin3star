@@ -16,8 +16,7 @@ class CLI
     input = gets.strip
       case input
       when "1"
-        Restaurants.all_by_name
-        binding.pry
+        Restaurants.print_restaurant_names
         more_restaurant_info
       when "2"
         Country.all.name
@@ -29,16 +28,16 @@ class CLI
   end
 
     def more_restaurant_info
-      puts "Please type the name of a restaurant to see more infomation!"
-      input = gets.strip.downcase
+      puts "Please type the name of a restaurant to see some more information."
+      input = gets.strip
       called_restaurant = Restaurants.find_by_name(input)
-      puts "You have selected: #{called_restaurant}."
-      puts "The location is: #{called_restaurant.location}, #{called_restaurant.country}."
-      puts "The chef is: #{called_restaurant.chef}."
+      puts "You have selected: #{called_restaurant.name}."
+      puts "The location of this restaurant is #{called_restaurant.location},#{called_restaurant.country}."
+      puts "The chef(s) is #{called_restaurant.chef}."
     end
 
     def list_by_country
-      input = gets.strip.downcase
+      input = gets.strip
       list = Restaurants.find_by_country(input)
       list.collect {|restaurant| restaurant.name }
     end
