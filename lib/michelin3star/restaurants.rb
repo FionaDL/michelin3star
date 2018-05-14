@@ -1,5 +1,6 @@
 require 'pry'
 
+
 class Restaurants
 
   attr_accessor :name, :country, :location, :chef, :year
@@ -8,7 +9,7 @@ class Restaurants
   def initialize
     save
     @country = self.country
-    self.create_country(@country)
+    country1 = Country.create_country(@country)
   end
 
   def self.all

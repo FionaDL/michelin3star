@@ -7,6 +7,7 @@ class CLI
     puts "If you would like to see the names of all the Three Star Michelin restaurants in the world type 1. If you prefer to see a list of countries where Three Star Michelin restaurants exist type 2."
     scraper = Scraper.new
     scraper.make_restaurants
+    binding.pry
     first_choice
     second_choice
   end
