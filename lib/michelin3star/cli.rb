@@ -34,11 +34,11 @@ class CLI
       new_input = input.split.map{|x| x.capitalize}.join(' ')
       called_restaurant = Restaurants.find_by_name(new_input)
       if called_restaurant == nil
-        puts "You may have entered the country incorrectly, please check spelling and enter again."
+        puts "You may have entered the restaurant incorrectly, please check spelling and enter again."
         more_restaurant_info
       else
         puts "You have selected #{called_restaurant.name}."
-        puts "This restaurant is located in #{called_restaurant.location},#{called_restaurant.country}."
+        puts "This restaurant is located in #{called_restaurant.location}, #{called_restaurant.country}."
         puts "The chef(s) is #{called_restaurant.chef}."
         puts "The restaurant has held 3 stars since #{called_restaurant.year}."
       end
@@ -47,7 +47,12 @@ class CLI
     def list_by_country
       input = gets.strip.downcase
       list = Country.find_by_name(input)
-      list.print_country_names
+      if list == nil
+        puts "You may have entered the country incorrectly, please check spelling and enter again."
+        list_by_country
+      else
+        list.print_country_names
+      end
     end
 
     def second_choice
@@ -71,6 +76,8 @@ class CLI
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
       when "y"
+        Country.print_country_names
+        puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
         more_restaurant_info
       when "n"
