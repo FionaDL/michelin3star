@@ -41,7 +41,7 @@ class CLI
       input = gets.strip.downcase
       list = Country.find_by_name(input)
       binding.pry
-      list.collect {|restaurant| restaurant.name }
+      list.restaurants
     end
 
 end

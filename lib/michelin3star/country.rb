@@ -18,6 +18,10 @@ class Country
     @@all << self
   end
 
+  def save_to_restaurants(restaurant)
+    @restaurants << restaurant
+  end
+
   def self.all_by_name
     @@all.map do |country|
       country.name
@@ -40,9 +44,7 @@ class Country
   end
 
   def self.find_by_name(name)
-    @@all.find do |country|
-       country.name.downcase == name.downcase
-     end
+    self.all.find {|country| country.name.downcase == name.downcase}
   end
 
 end

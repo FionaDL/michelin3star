@@ -36,7 +36,8 @@ class Scraper
           restaurant.chef = row.css("td")[2].text
           restaurant.year = row.css("td")[3].text.tr("[]", '').chop
           restaurant.country = @country
-          Country.find_or_create_by_name(restaurant.country)
+          country = Country.find_or_create_by_name(restaurant.country)
+          country.save_to_restaurants(restaurant)
         end
       end
     end
