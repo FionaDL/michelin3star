@@ -8,7 +8,6 @@ class CLI
     scraper = Scraper.new
     scraper.make_restaurants
     first_choice
-    binding.pry
     second_choice
   end
 
@@ -21,7 +20,7 @@ class CLI
         Restaurants.print_restaurant_names
         more_restaurant_info
       when "2"
-        Country.all_by_name
+        Country.print_country_names
         binding.pry
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
