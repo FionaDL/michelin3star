@@ -68,12 +68,22 @@ class CLI
         list_by_country
         more_restaurant_info
       when "n"
-        puts "Would you like to exit the program? y/n?"
         exit_program
       end
     end
 
-    
+    def exit_program
+      puts "Would you like to exit the program? y/n?"
+      input = gets.strip.downcase
+      case input
+      when input != "y" || input != "n"
+        puts "Not a valid entry, please type y for yes or n for no."
+      when input == "y"
+        exit
+      when input == "n"
+        second_choice
+      end
+    end
 
 
 end
