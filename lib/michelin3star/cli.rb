@@ -50,4 +50,30 @@ class CLI
       list.print_restaurant_names
     end
 
+    def second_choice
+      puts "Would you like see infomation for another restaurant? y/n"
+        input = gets.strip.downcase
+      case input
+      when "y"
+        puts "Please type the name of the restaurant."
+      when "n"
+        puts "Would you like to see the list of countries? y/n"
+      end
+    end
+
+    def list_by_country_y_n
+      input = gets.strip.downcase
+      case input
+      when "y"
+        list_by_country
+        more_restaurant_info
+      when "n"
+        puts "Would you like to exit the program? y/n?"
+        exit_program
+      end
+    end
+
+    
+
+
 end
