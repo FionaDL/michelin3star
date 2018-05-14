@@ -18,6 +18,16 @@ class Country
     @@all << self
   end
 
+  def self.all_by_name
+    self.all.map {|country| country.name}
+  end
+
+  def self.print_country_names
+    self.all_by_name.sort!.each do |country|
+      puts "#{country}"
+    end
+  end
+
   def save_to_restaurants(restaurant)
     @restaurants << restaurant
   end
@@ -28,27 +38,17 @@ class Country
     end
   end
 
-  def print_restaurant_names
-    all_by_name.sort!.each do |restaurant|
-      puts "#{restaurant}"
+  def print_country_names
+    all_by_name.sort!.each do |country|
+      puts "#{country}"
     end
   end
 
-  def self.all_by_name
-    @@all.map do |country|
-      country.name
-    end
-  end
 
   def self.find_or_create_by_name(name)
     find_by_name(name) ? find_by_name(name) : create(name)
   end
 
-  def self.print_country_names
-    all_by_name.sort!.each do |country|
-      puts "#{country}"
-    end
-  end
 
   def self.create(name)
     new_country = self.new(name)

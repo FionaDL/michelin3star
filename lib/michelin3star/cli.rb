@@ -47,7 +47,7 @@ class CLI
     def list_by_country
       input = gets.strip.downcase
       list = Country.find_by_name(input)
-      list.print_restaurant_names
+      list.print_country_names
     end
 
     def second_choice
@@ -55,15 +55,21 @@ class CLI
         input = gets.strip.downcase
       case input
       when "y"
-        puts "Please type the name of the restaurant."
+        Restaurants.print_restaurant_names
+        puts "Please type the name of a restaurant to see some more information."
+        more_restaurant_info
+        second_choice
       when "n"
-        puts "Would you like to see the list of countries? y/n"
+        list_by_country_y_n
       end
     end
 
     def list_by_country_y_n
+      puts "Would you like to see the list of countries? y/n"
       input = gets.strip.downcase
       case input
+      when input != "y" || input != "n"
+        puts "Not a valid entry, please type y for yes or n for no."
       when "y"
         list_by_country
         more_restaurant_info
