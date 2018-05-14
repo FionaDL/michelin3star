@@ -17,6 +17,7 @@ class Country
   def self.create_country(restaurant)
     new_country = restaurant.country
     new_country1 = self.new(new_country)
+    @name = new_country
     new_country1
   end
 
