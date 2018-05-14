@@ -8,8 +8,7 @@ class Restaurants
 
   def initialize
     save
-    @country = self.country
-    country1 = Country.create_country(@country)
+    Country.create_country(self)
   end
 
   def self.all
