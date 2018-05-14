@@ -18,30 +18,36 @@ class CLI
       case input
       when "1"
         Restaurants.print_restaurant_names
+        puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
       when "2"
         Country.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
+        puts "Please type the name of a restaurant to see some more information."
+        more_restaurant_info
       end
   end
 
     def more_restaurant_info
-      puts "Please type the name of a restaurant to see some more information."
       input = gets.strip.downcase
       new_input = input.split.map{|x| x.capitalize}.join(' ')
       called_restaurant = Restaurants.find_by_name(new_input)
-      puts "You have selected #{called_restaurant.name}."
-      puts "This restaurant is located in #{called_restaurant.location},#{called_restaurant.country}."
-      puts "The chef(s) is #{called_restaurant.chef}."
-      puts "The restaurant has held 3 stars since #{called_restaurant.year}."
+      if called_restaurant == nil
+        puts "You may have entered the country incorrectly, please check spelling and enter again."
+        more_restaurant_info
+      else
+        puts "You have selected #{called_restaurant.name}."
+        puts "This restaurant is located in #{called_restaurant.location},#{called_restaurant.country}."
+        puts "The chef(s) is #{called_restaurant.chef}."
+        puts "The restaurant has held 3 stars since #{called_restaurant.year}."
+      end
     end
 
     def list_by_country
       input = gets.strip.downcase
       list = Country.find_by_name(input)
       list.print_restaurant_names
-      binding.pry
     end
 
 end
