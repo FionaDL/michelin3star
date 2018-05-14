@@ -22,6 +22,18 @@ class Country
     @restaurants << restaurant
   end
 
+  def all_by_name
+    restaurants.map do |restaurant|
+      restaurant.name
+    end
+  end
+
+  def print_restaurant_names
+    all_by_name.sort!.each do |restaurant|
+      puts "#{restaurant}"
+    end
+  end
+
   def self.all_by_name
     @@all.map do |country|
       country.name

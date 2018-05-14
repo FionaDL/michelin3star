@@ -40,8 +40,8 @@ class CLI
     def list_by_country
       input = gets.strip.downcase
       list = Country.find_by_name(input)
+      list.print_restaurant_names
       binding.pry
-      list.restaurants
     end
 
 end
