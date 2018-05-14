@@ -34,8 +34,4 @@ class Restaurants
     self.all.find { |restaurant| restaurant.name == name }
   end
 
-  def self.find_by_country(country)
-    self.all.find {|restaurant| restaurant.country == country}
-  end
-
 end

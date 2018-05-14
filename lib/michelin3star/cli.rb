@@ -21,7 +21,6 @@ class CLI
         more_restaurant_info
       when "2"
         Country.print_country_names
-        binding.pry
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
       end
@@ -39,8 +38,9 @@ class CLI
     end
 
     def list_by_country
-      input = gets.strip
-      list = Restaurants.find_by_country(input)
+      input = gets.strip.downcase
+      list = Country.find_by_name(input)
+      binding.pry
       list.collect {|restaurant| restaurant.name }
     end
 

@@ -13,6 +13,7 @@ class Scraper
   def get_country_data
      get_page.css("h3").collect do |country|
       country.css(" .mw-headline").text
+      binding.pry
     end
   end
 
@@ -36,7 +37,7 @@ class Scraper
           restaurant.chef = row.css("td")[2].text
           restaurant.year = row.css("td")[3].text.tr("[]", '').chop
           restaurant.country = @country
-          country = Country.find_or_create_by_name(restaurant.country)
+          Country.find_or_create_by_name(restaurant.country)
         end
       end
     end
