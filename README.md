@@ -2,7 +2,7 @@
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/michelin3star`. To experiment with that code, run `bin/console` for an interactive prompt.
 
-TODO: Delete this and the text above, and describe your gem
+Welcome to the Michelin 3 Star gem! This gem creates a CLI to view information pulled from the list of all the three star Michelin restaurants in the world provided by a wikepedia page.
 
 ## Installation
 
@@ -22,7 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ Type the command and follow the onscreen prompts.
+ $ michelin3star
 
 ## Development
 
