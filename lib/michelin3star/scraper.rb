@@ -33,7 +33,7 @@ class Scraper
           restaurant = Restaurants.new
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
-          restaurant.chef = row.css("td")[2].text
+          restaurant.chef = row.css("td")[2].text.gsub(/[^a-zA-Z ,]/, "")
           restaurant.year = row.css("td")[3].text[0...4]
           restaurant.country = @country
           country = Country.find_or_create_by_name(restaurant.country)
