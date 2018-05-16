@@ -26,6 +26,7 @@ class CLI
         list_by_country
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
+        second_choice
       end
   end
 
@@ -79,6 +80,7 @@ class CLI
         Country.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
+        puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
       when "n"
         exit_program
