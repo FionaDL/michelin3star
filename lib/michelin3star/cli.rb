@@ -60,6 +60,8 @@ class CLI
       puts "Would you like see infomation for another restaurant? y/n"
         input = gets.strip.downcase
       case input
+      when input != "y" || input != "n"
+        puts "Not a valid entry, please type y for yes or n for no."
       when "y"
         Restaurants.print_restaurant_names
         puts "Please type the name of a restaurant to see some more information."
