@@ -69,6 +69,7 @@ class CLI
         second_choice
       when "n"
         list_by_country_y_n
+        second_choice
       end
     end
 
