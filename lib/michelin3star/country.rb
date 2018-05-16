@@ -23,7 +23,7 @@ class Country
   end
 
   def self.print_country_names
-    self.class.all_by_name.sort!.each do |country|
+    self.all_by_name.sort!.each do |country|
       puts "#{country}"
     end
   end
