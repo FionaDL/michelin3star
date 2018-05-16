@@ -8,7 +8,6 @@ class CLI
     scraper = Scraper.new
     scraper.make_restaurants
     first_choice
-    second_choice
   end
 
 
@@ -20,6 +19,7 @@ class CLI
         Restaurants.print_restaurant_names
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
+        second_choice
       when "2"
         Country.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
@@ -69,7 +69,6 @@ class CLI
         second_choice
       when "n"
         list_by_country_y_n
-        second_choice
       end
     end
 
@@ -85,6 +84,7 @@ class CLI
         list_by_country
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
+        second_choice
       when "n"
         exit_program
       end
