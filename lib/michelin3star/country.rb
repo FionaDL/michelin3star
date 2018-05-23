@@ -1,4 +1,4 @@
-class Country
+class Michelin3star::Country
 
   attr_accessor :restaurants, :name
 

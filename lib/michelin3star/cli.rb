@@ -1,6 +1,5 @@
-require 'pry'
 
-class CLI
+class Michelin3star::CLI
 
   def call
     puts"Welcome! Would you like to check out some Three star Michelin restaurants? If your answer is yes, you've come to the right place!"
@@ -100,6 +99,12 @@ class CLI
         exit
       when input == "n"
         second_choice
+      end
+    end
+
+    def print_restaurant_names
+      Restaurant.all_by_name.sort!.each do |restaurant|
+        puts "#{restaurant}"
       end
     end
 

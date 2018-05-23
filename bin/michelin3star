@@ -2,4 +2,4 @@
 
 require "./lib/michelin3star"
 
-CLI.new.call
+Michelin3star::CLI.new.call

@@ -1,7 +1,5 @@
-require 'pry'
 
-
-class Restaurants
+class Michelin3star::Restaurants
 
   attr_accessor :name, :country, :location, :chef, :year
   @@all = []

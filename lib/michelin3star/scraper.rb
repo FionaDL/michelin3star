@@ -1,10 +1,5 @@
-require 'nokogiri'
-require 'open-uri'
-require 'pry'
-require_relative './restaurants.rb'
 
-
-class Scraper
+class Michelin3star::Scraper
 
   def get_page
       doc = Nokogiri::HTML(open("https://en.wikipedia.org/wiki/List_of_Michelin_3-star_restaurants"))
