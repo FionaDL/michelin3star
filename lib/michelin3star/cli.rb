@@ -4,9 +4,6 @@ class Michelin3star::CLI
   def call
     puts"Welcome! Would you like to check out some Three star Michelin restaurants?"
     puts "If your answer is yes, you've come to the right place!"
-    puts "Choose one of the following options by typing 1 or 2."
-    puts "1.Would you like to see all of the Three Star Michelin Restaurants in the world?"
-    puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exsist?"
     scraper = Michelin3star::Scraper.new
     scraper.make_restaurants
     first_choice
@@ -15,6 +12,9 @@ class Michelin3star::CLI
 
     #giving the user the option of seeing an alphabetized list of all the restaurants, and then the ability to choose one for more information, or to first see a list of countries, and then see the list of restaurants under that country. Then they would also have the ability to choose a restaurant for more information.
   def first_choice
+    puts "Choose one of the following options by typing 1 or 2."
+    puts "1.Would you like to see all of the Three Star Michelin Restaurants in the world?"
+    puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exsist?"
     input = gets.strip
       case input
       when "1"
@@ -29,6 +29,7 @@ class Michelin3star::CLI
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
+      else "You seemes to have entered something other the 1 or 2, please try again." 
       end
   end
 
