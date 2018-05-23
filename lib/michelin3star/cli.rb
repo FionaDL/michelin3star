@@ -2,9 +2,12 @@
 class Michelin3star::CLI
 
   def call
-    puts"Welcome! Would you like to check out some Three star Michelin restaurants? If your answer is yes, you've come to the right place!"
-    puts "If you would like to see the names of all the Three Star Michelin restaurants in the world type 1. If you prefer to see a list of countries where Three Star Michelin restaurants exist type 2."
-    scraper = Scraper.new
+    puts"Welcome! Would you like to check out some Three star Michelin restaurants?"
+    puts "If your answer is yes, you've come to the right place!"
+    puts "Choose one of the following options by typing 1 or 2."
+    puts "1.Would you like to see all of the Three Star Michelin Restaurants in the world?"
+    puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exsist?"
+    scraper = Michelin3star::Scraper.new
     scraper.make_restaurants
     first_choice
   end
@@ -15,12 +18,12 @@ class Michelin3star::CLI
     input = gets.strip
       case input
       when "1"
-        Restaurants.print_restaurant_names
+        self.print_restaurant_names
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
       when "2"
-        Country.print_country_names
+        Michelin3star::Country.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
         puts "Please type the name of a restaurant to see some more information."
@@ -32,7 +35,7 @@ class Michelin3star::CLI
     def more_restaurant_info
       input = gets.strip.downcase
       new_input = input.split.map{|x| x.capitalize}.join(' ')
-      called_restaurant = Restaurants.find_by_name(new_input)
+      called_restaurant = Michelin3star::Restaurants.find_by_name(new_input)
       if called_restaurant == nil
         puts "You may have entered the restaurant incorrectly, please check spelling and enter again."
         more_restaurant_info
@@ -46,7 +49,7 @@ class Michelin3star::CLI
 
     def list_by_country
       input = gets.strip.downcase
-      list = Country.find_by_name(input)
+      list = Michelin3star::Country.find_by_name(input)
       if list == nil
         puts "You may have entered the country incorrectly, please check spelling and enter again."
         list_by_country
@@ -62,7 +65,7 @@ class Michelin3star::CLI
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
       when "y"
-        Restaurants.print_restaurant_names
+        Michelin3star::Restaurants.print_restaurant_names
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
@@ -78,7 +81,7 @@ class Michelin3star::CLI
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
       when "y"
-        Country.print_country_names
+        Michelin3star::Country.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
         puts "Please type the name of a restaurant to see some more information."
@@ -103,7 +106,7 @@ class Michelin3star::CLI
     end
 
     def print_restaurant_names
-      Restaurant.all_by_name.sort!.each do |restaurant|
+      Michelin3star::Restaurants.all_by_name.sort!.each do |restaurant|
         puts "#{restaurant}"
       end
     end

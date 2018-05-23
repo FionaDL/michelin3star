@@ -25,13 +25,13 @@ class Michelin3star::Scraper
     self.table_arrays.each_with_index do |table, i|
           @country = get_country_data[i]
         table.each do |row|
-          restaurant = Restaurants.new
+          restaurant = Michelin3star::Restaurants.new
           restaurant.location = row.css("td")[0].text
           restaurant.name = row.css("td")[1].text
           restaurant.chef = row.css("td")[2].text.gsub(/[^a-zA-Z ,]/, "")
           restaurant.year = row.css("td")[3].text[0...4]
           restaurant.country = @country
-          country = Country.find_or_create_by_name(restaurant.country)
+          country = Michelin3star::Country.find_or_create_by_name(restaurant.country)
           country.save_to_restaurants(restaurant)
         end
       end
