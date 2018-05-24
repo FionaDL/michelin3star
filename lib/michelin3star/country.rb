@@ -26,7 +26,7 @@ class Michelin3star::Country
     @restaurants << restaurant
   end
 
-  def all_by_name
+  def all_restaurants_by_name
     restaurants.map do |restaurant|
       restaurant.name
     end

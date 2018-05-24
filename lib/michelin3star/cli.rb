@@ -34,6 +34,7 @@ class Michelin3star::CLI
         list_by_country
         puts "----------------"
         puts "Please type the name of a restaurant to see some more information."
+        puts "----------------"
         more_restaurant_info
         second_choice
       when "exit"
@@ -65,12 +66,13 @@ class Michelin3star::CLI
 
     def list_by_country
       input = gets.strip.downcase
-      list = Michelin3star::Country.find_by_name(input)
-      if list == nil
+      @country = Michelin3star::Country.find_by_name(input)
+      puts "----------------"
+      if @country == nil
         puts "You may have entered the country incorrectly, please check spelling and enter again."
         list_by_country
       else
-        list.print_country_restaurant_names
+        print_country_restaurant_names
       end
     end
 
@@ -153,7 +155,7 @@ class Michelin3star::CLI
     end
 
     def print_country_restaurant_names
-      Michelin3star::Country.all_by_restaurant_name.sort!.each do |country|
+      @country.all_restaurants_by_name.sort!.each do |country|
         puts "#{country}"
       end
     end
