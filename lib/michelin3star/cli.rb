@@ -14,7 +14,8 @@ class Michelin3star::CLI
   def first_choice
     puts "Choose one of the following options by typing 1 or 2."
     puts "1.Would you like to see all of the Three Star Michelin Restaurants in the world?"
-    puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exsist?"
+    puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exist?"
+    puts "Please type exit to leave the program at any time."
     input = gets.strip
       case input
       when "1"
@@ -29,7 +30,8 @@ class Michelin3star::CLI
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
-      else "You seemes to have entered something other the 1 or 2, please try again." 
+      when "exit"
+      else "You seemes to have entered something other the 1 or 2, please try again."
       end
   end
 
@@ -100,11 +102,14 @@ class Michelin3star::CLI
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
       when input == "y"
-        exit
+        goodbye
       when input == "n"
         second_choice
       end
     end
+
+    def goodbye
+      puts "Goodbye, hope your next meal is delicious!"
 
     def print_restaurant_names
       Michelin3star::Restaurants.all_by_name.sort!.each do |restaurant|
