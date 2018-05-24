@@ -16,11 +16,14 @@ class Michelin3star::CLI
     puts "1.Would you like to see all of the Three Star Michelin Restaurants in the world?"
     puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exist?"
     puts "Please type exit to leave the program at any time."
+    puts "----------------"
     input = gets.strip
       case input
       when "1"
         self.print_restaurant_names
+        puts "----------------"
         puts "Please type the name of a restaurant to see some more information."
+        puts "----------------"
         more_restaurant_info
         second_choice
       when "2"
@@ -39,19 +42,21 @@ class Michelin3star::CLI
 
     def more_restaurant_info
       input = gets.strip.downcase
-      if input == "exit"
-        goodbye
-      end
       new_input = input.split.map{|x| x.capitalize}.join(' ')
       called_restaurant = Michelin3star::Restaurants.find_by_name(new_input)
-      if called_restaurant == nil
+      puts "----------------"
+      if input == "exit"
+        goodbye
+      elsif called_restaurant == nil
         puts "You may have entered the restaurant incorrectly, please check spelling and enter again."
+        puts "----------------"
         more_restaurant_info
       else
         puts "You have selected #{called_restaurant.name}."
         puts "This restaurant is located in #{called_restaurant.location}, #{called_restaurant.country}."
         puts "The chef(s) is #{called_restaurant.chef}."
         puts "The restaurant has held 3 stars since #{called_restaurant.year}."
+        puts "----------------"
       end
     end
 
@@ -68,13 +73,18 @@ class Michelin3star::CLI
 
     def second_choice
       puts "Would you like see infomation for another restaurant? y/n"
+      puts "----------------"
         input = gets.strip.downcase
       case input
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
+        puts "----------------"
+        second_choice
       when "y"
         self.print_restaurant_names
+        puts "----------------"
         puts "Please type the name of a restaurant to see some more information."
+        puts "----------------"
         more_restaurant_info
         second_choice
       when "n"
@@ -84,6 +94,7 @@ class Michelin3star::CLI
 
     def list_by_country_y_n
       puts "Would you like to see the list of countries? y/n"
+      puts "----------------"
       input = gets.strip.downcase
       case input
       when input != "y" || input != "n"
