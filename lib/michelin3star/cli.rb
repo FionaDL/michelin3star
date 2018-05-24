@@ -4,6 +4,7 @@ class Michelin3star::CLI
   def call
     puts"Welcome! Would you like to check out some Three star Michelin restaurants?"
     puts "If your answer is yes, you've come to the right place!"
+    puts "----------------"
     scraper = Michelin3star::Scraper.new
     scraper.make_restaurants
     first_choice
@@ -13,9 +14,9 @@ class Michelin3star::CLI
     #giving the user the option of seeing an alphabetized list of all the restaurants, and then the ability to choose one for more information, or to first see a list of countries, and then see the list of restaurants under that country. Then they would also have the ability to choose a restaurant for more information.
   def first_choice
     puts "Choose one of the following options by typing 1 or 2."
-    puts "1.Would you like to see all of the Three Star Michelin Restaurants in the world?"
-    puts "2.Would you prefer to see all of the countries where Three Star Michelin restaurants exist?"
-    puts "Please type exit to leave the program at any time."
+    puts "1.List all of the Three Star Michelin Restaurants in the world."
+    puts "2.List all of the countries where Three Star Michelin restaurants exist."
+    puts "  Please type exit to leave the program at any time."
     puts "----------------"
     input = gets.strip
       case input
@@ -96,6 +97,7 @@ class Michelin3star::CLI
         more_restaurant_info
         second_choice
       when "n"
+        puts "----------------"
         list_by_country_y_n
       else
         puts "Not a valid entry, please type y for yes or n for no."
@@ -120,6 +122,7 @@ class Michelin3star::CLI
         more_restaurant_info
         second_choice
       when "n"
+        puts "----------------"
         exit_program
       else
         puts "Not a valid entry, please type y for yes or n for no."
@@ -133,6 +136,7 @@ class Michelin3star::CLI
       input = gets.strip.downcase
       case input
       when "n"
+        puts "----------------"
         second_choice
       when "y"
         goodbye
@@ -146,6 +150,7 @@ class Michelin3star::CLI
     def goodbye
       puts "----------------"
       puts "Goodbye, we hope your next meal is delicious!"
+      puts "----------------"
       exit
     end
 
