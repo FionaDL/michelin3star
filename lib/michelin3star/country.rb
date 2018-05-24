@@ -22,12 +22,6 @@ class Michelin3star::Country
     @@all.map {|country| country.name}
   end
 
-  def self.print_country_names
-    self.all_by_name.sort!.each do |country|
-      puts "#{country}"
-    end
-  end
-
   def save_to_restaurants(restaurant)
     @restaurants << restaurant
   end
@@ -38,17 +32,9 @@ class Michelin3star::Country
     end
   end
 
-  def print_country_names
-    all_by_name.sort!.each do |country|
-      puts "#{country}"
-    end
-  end
-
-
   def self.find_or_create_by_name(name)
     find_by_name(name) ? find_by_name(name) : create(name)
   end
-
 
   def self.create(name)
     new_country = self.new(name)

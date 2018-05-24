@@ -24,19 +24,24 @@ class Michelin3star::CLI
         more_restaurant_info
         second_choice
       when "2"
-        Michelin3star::Country.print_country_names
+        self.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
       when "exit"
-      else "You seemes to have entered something other the 1 or 2, please try again."
-      end
+        goodbye
+      else "You seemed to have entered something other then 1 or 2, please try again."
+        first_choice
+    end
   end
 
     def more_restaurant_info
       input = gets.strip.downcase
+      if input == "exit"
+        goodbye
+      end
       new_input = input.split.map{|x| x.capitalize}.join(' ')
       called_restaurant = Michelin3star::Restaurants.find_by_name(new_input)
       if called_restaurant == nil
@@ -68,7 +73,7 @@ class Michelin3star::CLI
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
       when "y"
-        Michelin3star::Restaurants.print_restaurant_names
+        self.print_restaurant_names
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
@@ -84,7 +89,7 @@ class Michelin3star::CLI
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
       when "y"
-        Michelin3star::Country.print_country_names
+        self.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
         puts "Please type the name of a restaurant to see some more information."
@@ -101,19 +106,32 @@ class Michelin3star::CLI
       case input
       when input != "y" || input != "n"
         puts "Not a valid entry, please type y for yes or n for no."
-      when input == "y"
-        goodbye
       when input == "n"
         second_choice
+      when input == "y"
+        goodbye
       end
     end
 
     def goodbye
       puts "Goodbye, hope your next meal is delicious!"
+    end
 
     def print_restaurant_names
       Michelin3star::Restaurants.all_by_name.sort!.each do |restaurant|
         puts "#{restaurant}"
+      end
+    end
+
+    def print_country_names
+      Michelin3star::Country.all_by_name.sort!.each do |country|
+        puts "#{country}"
+      end
+    end
+
+    def print_country_restaurant_names
+      Michelin3star::Country.all_by_restaurant_name.sort!.each do |country|
+        puts "#{country}"
       end
     end
 
