@@ -126,7 +126,6 @@ class Michelin3star::CLI
       puts "Would you like to exit the program? y/n?"
       puts "----------------"
       input = gets.strip.downcase
-      puts "----------------"
       case input
       when "n"
         second_choice
@@ -134,11 +133,14 @@ class Michelin3star::CLI
         goodbye
       else
         puts "Not a valid entry, please type y for yes or n for no."
+        puts "----------------"
+        exit_program
       end
     end
 
     def goodbye
-      puts "Goodbye, hope your next meal is delicious!"
+      puts "----------------"
+      puts "Goodbye, we hope your next meal is delicious!"
       exit
     end
 
