@@ -28,8 +28,11 @@ class Michelin3star::CLI
         second_choice
       when "2"
         self.print_country_names
+        puts "----------------"
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
+        puts "----------------"
         list_by_country
+        puts "----------------"
         puts "Please type the name of a restaurant to see some more information."
         more_restaurant_info
         second_choice
@@ -67,7 +70,7 @@ class Michelin3star::CLI
         puts "You may have entered the country incorrectly, please check spelling and enter again."
         list_by_country
       else
-        list.print_country_names
+        list.print_country_restaurant_names
       end
     end
 
@@ -76,10 +79,8 @@ class Michelin3star::CLI
       puts "----------------"
         input = gets.strip.downcase
       case input
-      when input != "y" || input != "n"
-        puts "Not a valid entry, please type y for yes or n for no."
-        puts "----------------"
-        second_choice
+      when "exit"
+        goodbye
       when "y"
         self.print_restaurant_names
         puts "----------------"
@@ -89,6 +90,10 @@ class Michelin3star::CLI
         second_choice
       when "n"
         list_by_country_y_n
+      else
+        puts "Not a valid entry, please type y for yes or n for no."
+        puts "----------------"
+        second_choice
       end
     end
 
@@ -97,9 +102,10 @@ class Michelin3star::CLI
       puts "----------------"
       input = gets.strip.downcase
       case input
-      when input != "y" || input != "n"
-        puts "Not a valid entry, please type y for yes or n for no."
+      when "exit"
+        goodbye
       when "y"
+        puts "----------------"
         self.print_country_names
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
         list_by_country
@@ -108,24 +114,30 @@ class Michelin3star::CLI
         second_choice
       when "n"
         exit_program
+      else
+        puts "Not a valid entry, please type y for yes or n for no."
+        list_by_country_y_n
       end
     end
 
     def exit_program
       puts "Would you like to exit the program? y/n?"
+      puts "----------------"
       input = gets.strip.downcase
+      puts "----------------"
       case input
-      when input != "y" || input != "n"
-        puts "Not a valid entry, please type y for yes or n for no."
-      when input == "n"
+      when "n"
         second_choice
-      when input == "y"
+      when "y"
         goodbye
+      else
+        puts "Not a valid entry, please type y for yes or n for no."
       end
     end
 
     def goodbye
       puts "Goodbye, hope your next meal is delicious!"
+      exit
     end
 
     def print_restaurant_names
