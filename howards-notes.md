@@ -15,6 +15,6 @@
   - Done!!move 'require' calls out of classes and in to environment file
   - clean up user interface, including handling bad user input
     - add empty puts and/or '_________----------**********'
-  - move all `puts` statements to CLI class
-  - add module namespacing
+  - Done!!move all `puts` statements to CLI class
+  - Done!!add module namespacing
   - DONE !! scrape only once 耀

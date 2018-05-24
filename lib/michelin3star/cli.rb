@@ -39,7 +39,9 @@ class Michelin3star::CLI
         second_choice
       when "exit"
         goodbye
-      else "You seemed to have entered something other then 1 or 2, please try again."
+      else
+        puts "----------------"
+        puts "You seemed to have entered something other then 1 or 2, please try again."
         first_choice
     end
   end
@@ -70,7 +72,10 @@ class Michelin3star::CLI
       puts "----------------"
       if @country == nil
         puts "You may have entered the country incorrectly, please check spelling and enter again."
+        puts "----------------"
         list_by_country
+      elsif input == "exit"
+        goodbye
       else
         print_country_restaurant_names
       end
