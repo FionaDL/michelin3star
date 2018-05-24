@@ -12,7 +12,7 @@
 
 # Refactor opportunities
 
-  - move 'require' calls out of classes and in to environment file
+  - Done!!move 'require' calls out of classes and in to environment file
   - clean up user interface, including handling bad user input
     - add empty puts and/or '_________----------**********'
   - move all `puts` statements to CLI class
