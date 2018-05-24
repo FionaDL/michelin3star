@@ -76,8 +76,10 @@ class Michelin3star::CLI
         puts "----------------"
         list_by_country
       elsif input == "exit"
+        puts "----------------"
         goodbye
       else
+        puts "----------------"
         print_country_restaurant_names
       end
     end
@@ -112,6 +114,7 @@ class Michelin3star::CLI
       input = gets.strip.downcase
       case input
       when "exit"
+        puts "----------------"
         goodbye
       when "y"
         puts "----------------"
@@ -132,6 +135,7 @@ class Michelin3star::CLI
         goodbye
       else
         puts "Not a valid entry, please type y for yes or n for no."
+        puts "----------------"
         list_by_country_y_n
       end
     end
