@@ -83,7 +83,7 @@ class Michelin3star::CLI
     end
 
     def second_choice
-      puts "Would you like see infomation for another restaurant? y/n"
+      puts "Would you like to see infomation for another restaurant? y/n"
       puts "----------------"
         input = gets.strip.downcase
       case input
@@ -116,14 +116,20 @@ class Michelin3star::CLI
       when "y"
         puts "----------------"
         self.print_country_names
+        puts "----------------"
         puts "Type a country to see all the Three Star Michelin restaurants from that country."
+        puts "----------------"
         list_by_country
+        puts "----------------"
         puts "Please type the name of a restaurant to see some more information."
+        puts "----------------"
         more_restaurant_info
         second_choice
       when "n"
         puts "----------------"
         exit_program
+      when "exit"
+        goodbye
       else
         puts "Not a valid entry, please type y for yes or n for no."
         list_by_country_y_n
@@ -139,6 +145,7 @@ class Michelin3star::CLI
         puts "----------------"
         second_choice
       when "y"
+        puts "----------------"
         goodbye
       else
         puts "Not a valid entry, please type y for yes or n for no."
@@ -148,7 +155,6 @@ class Michelin3star::CLI
     end
 
     def goodbye
-      puts "----------------"
       puts "Goodbye, we hope your next meal is delicious!"
       puts "----------------"
       exit
