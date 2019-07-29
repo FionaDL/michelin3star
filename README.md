@@ -1,6 +1,6 @@
 # Michelin3star
 
-Welcome to the Michelin 3 Star gem! This gem creates a CLI to view information pulled from the list of all of the current three star Michelin restaurants in the world provided by a Wikepedia page.
+Welcome to the Michelin 3 Star gem! This gem creates a CLI to view information pulled from the list of all of the current three star Michelin restaurants in the world provided by a Wikapedia page.
 
 ## Installation
 
